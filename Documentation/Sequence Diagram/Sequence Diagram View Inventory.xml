@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="4VqU5dPed7CWXqp9l9I1">
+    <mxGraphModel dx="1056" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HrxNk1Lv7Z8qmX8g74zy-1" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="120" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="HrxNk1Lv7Z8qmX8g74zy-5" value="viewInventory()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="HrxNk1Lv7Z8qmX8g74zy-1" target="HrxNk1Lv7Z8qmX8g74zy-2" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="90" as="sourcePoint" />
+            <mxPoint x="90" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrxNk1Lv7Z8qmX8g74zy-2" value=":MainPage" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="300" y="120" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="HrxNk1Lv7Z8qmX8g74zy-6" value="retreiveData()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="HrxNk1Lv7Z8qmX8g74zy-2" target="HrxNk1Lv7Z8qmX8g74zy-3" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="110" as="sourcePoint" />
+            <mxPoint x="130" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrxNk1Lv7Z8qmX8g74zy-3" value=":System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="490" y="120" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="HrxNk1Lv7Z8qmX8g74zy-4" value=":Finance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="185" y="90" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrxNk1Lv7Z8qmX8g74zy-7" value="updateView()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="1" target="HrxNk1Lv7Z8qmX8g74zy-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="280" as="sourcePoint" />
+            <mxPoint x="450" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
